@@ -1,77 +1,44 @@
-# 💎 Gemini AI Application
+# Gemini AI Experience
 
-A modern React application showcasing Google's Gemini AI capabilities with a beautiful user interface.
+## Overview
+An immersive web application showcasing the capabilities of Google's Gemini AI. This project demonstrates high-fidelity visual interactions, integrating 3D environments with advanced AI conversational agents to create a unique user experience.
 
----
+## Features
+-   **3D Environment**: Interactive WebGL scenes powered by Three.js.
+-   **AI Chat**: Real-time integration with the Gemini Pro API for natural conversation.
+-   **Hand Tracking**: Gesture-based interaction controls.
+-   **Immersive Audio**: Spatial sound effects and voice synthesis.
+-   **Responsive UI**: Modern, glassmorphic interface design.
 
-## 🌟 Overview
+## Technology Stack
+-   **Frontend**: React, Three.js (React Three Fiber).
+-   **AI**: Google Gemini API.
+-   **Input**: MediaPipe for hand and gesture tracking.
+-   **Styling**: Tailwind CSS.
 
-A feature-rich web application built with React and Vite, demonstrating the power of Google's Gemini AI model for conversational AI and content generation.
+## Usage Flow
+1.  **Enter**: User loads the 3D experience.
+2.  **Interact**: User uses voice or chat to communicate with the AI agent.
+3.  **Explore**: Navigates the 3D space using mouse or hand gestures.
+4.  **Response**: AI agent responds with voice and visual feedback.
 
-## ✨ Features
-
-- **Gemini AI Integration** - Powered by Google's latest AI model
-- **Modern UI** - Clean, responsive design with Tailwind CSS
-- **Real-time Chat** - Interactive AI conversations
-- **Content Generation** - AI-powered content creation
-- **Fast Performance** - Built with Vite for optimal speed
-
-## 📁 Project Structure
-
-```
-gemini/
-├── src/              # React source code
-├── public/           # Static assets
-├── index.html        # Entry HTML
-├── vite.config.js    # Vite configuration
-├── tailwind.config.js # Tailwind CSS config
-└── package.json      # Dependencies
-```
-
-## 🚀 Quick Start
-
+## Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/Nytrynox/Gemini-Project.git
-cd Gemini-Project
+git clone https://github.com/Nytrynox/Gemini-Full-Project.git
 
 # Install dependencies
 npm install
 
-# Add your Gemini API key to .env
-VITE_GEMINI_API_KEY=your_api_key_here
+# Configure API Key
+echo "VITE_GEMINI_API_KEY=your_key_here" > .env
 
 # Start development server
 npm run dev
 ```
 
-Access at: `http://localhost:5173`
-
-## 🔬 Technology Stack
-
-| Component | Technology |
-|-----------|------------|
-| Frontend | React, Vite |
-| Styling | Tailwind CSS |
-| AI | Google Gemini API |
-| Build | Vite, ESLint |
-
-## ⚙️ Configuration
-
-Create `.env` file:
-```env
-VITE_GEMINI_API_KEY=your_gemini_api_key
-```
-
-## 📝 License
-
+## License
 MIT License
 
-## 👤 Author
-
-**Karthik Idikuda**  
-Full Stack Developer | AI Enthusiast
-
----
-
-*Exploring the future of AI*
+## Author
+**Karthik Idikuda**
